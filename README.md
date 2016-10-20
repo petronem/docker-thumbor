@@ -151,3 +151,4 @@ Env vars and default value:
     TC_AWS_ENABLE_HTTP_LOADER=False
     TC_AWS_ALLOWED_BUCKETS=False
     TC_AWS_STORE_METADATA=False
+    TC_AWS_ENDPOINT='' # set for S3 compliant storage besides amazonaws.com--such as ceph, min.io, libres3, etc.
